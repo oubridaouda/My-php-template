@@ -1,0 +1,57 @@
+.section-home-content {
+  margin-top: 20%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  margin-top: 200px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.compare {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-areas: "D T";
+  grid-gap: 1rem;
+}
+.compare .devise-select-list {
+  grid-area: D;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.compare .best-price-table {
+  grid-area: T;
+}
+
+/*# sourceMappingURL=index.css.map */

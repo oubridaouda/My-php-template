@@ -1,0 +1,16 @@
+{
+  "name": "daouda/php-project",
+  "autoload": {
+    "psr-4": {
+      "Router\\": "routes/",
+      "Controller\\": "controller/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Oubri Daouda",
+      "email": "oubridaouda@gmail.com"
+    }
+  ],
+  "require": {}
+}
