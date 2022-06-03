@@ -3,7 +3,10 @@
   "autoload": {
     "psr-4": {
       "Router\\": "routes/",
-      "Controller\\": "controller/"
+      "Models\\": "models/",
+      "App\\": "app/",
+      "Database\\": "database",
+      "Validation\\": "validation"
     }
   },
   "authors": [

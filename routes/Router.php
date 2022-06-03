@@ -41,5 +41,9 @@ class Router
                 $this->check = true;
             }
         }
+
+        if ($this->check == NULL) {
+            echo 'La page est introuvable';
+        }
     }
 }

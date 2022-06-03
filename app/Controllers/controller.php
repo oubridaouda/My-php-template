@@ -1,13 +1,13 @@
 <?php
 
-namespace Controller;
+namespace App\Controllers;
 
 abstract class controller
 {
 
     protected $db;
 
-    //Initilisation de l'instance de connexion accessible a tout les enfant du controller
+    //Initilisation de l'instance de connexion accessible a tout les enfant du Controllers
     public function __construct()
     {
         //Si la session est activé et inexistante la demarrer

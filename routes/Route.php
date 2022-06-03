@@ -28,6 +28,9 @@ class Route
             $this->matches = $matches;
 //            var_dump($this->matches);
 
+            var_dump("salut");
+            var_dump("salut");
+            var_dump("salut");
             return true;
         } else {
             return false;
@@ -36,9 +39,9 @@ class Route
 
     public function execute(string $url)
     {
-        $params = explode('@', $this->action); //recupere l'action le sépare en controller et methode
+        $params = explode('@', $this->action); //recupere l'action le sépare en Controllers et methode
         $urlParser = explode('/', $url);
-        //Initialisation de notre controller avec la connexion a la bd
+        //Initialisation de notre Controllers avec la connexion a la bd
         $controller = new $params[0](true);
         $method = $params[1];
 //      var_dump($urlParser[1]);
