@@ -3,7 +3,7 @@ A personal cms with an integrated routing system to quickly initialize a php pro
 
 # Installation
 ````
-git clone git@github.com:oubridaouda/Ecommerce.git
-cd Ecommerce
+git clone git@github.com:oubridaouda/My-php-template.git
+cd My-php-template
 composer dump-autoload
 ````
