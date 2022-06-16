@@ -1,5 +1,9 @@
-.section-home-content{
-  margin-top: 20%;
+.section-home-content {
+  display: flex;
+  margin-top: 10%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
 }
 a{
   text-decoration: none;
