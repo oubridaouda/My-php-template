@@ -28,6 +28,6 @@ try {
 // execution de la function run qui renvoie les vues
     $router->run();
 
-} catch (Exception $e) {
-    echo $e;
+} catch (\App\Exceptions\NotFound $e) {
+    echo $e->error404();
 }

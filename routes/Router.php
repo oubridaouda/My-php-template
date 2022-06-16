@@ -43,7 +43,7 @@ class Router
         }
 
         if ($this->check == NULL) {
-            echo 'La page est introuvable';
+            throw new \App\Exceptions\NotFound('La page est introuvable');
         }
     }
 }

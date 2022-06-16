@@ -1,5 +1,3 @@
-<link rel="stylesheet"
-      href="<?= SCRIPT . 'assets' . DIRECTORY_SEPARATOR . 'css' . DIRECTORY_SEPARATOR . 'custom'. DIRECTORY_SEPARATOR . '404.css' ?>"/>
 <main>
     <svg
             viewBox="0 0 541.17206 328.45184"
