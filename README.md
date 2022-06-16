@@ -9,7 +9,9 @@ composer dump-autoload
 ````
 # Router
 ````
-If the routing not work create VirtualHost and configure.
+If the routing does not work, create a VirtualHost and configure it.
+
+Example:
 
 <VirtualHost *:80> 
     DocumentRoot "C:/laragon/www/My-php-template/"
