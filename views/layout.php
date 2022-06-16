@@ -12,7 +12,6 @@
     <div class="container">
         <div class="section-home-content">
             <?= $content ?>
-            ffff
         </div>
     </div>
 </body>

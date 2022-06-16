@@ -13,12 +13,16 @@ define('SCRIPT', dirname($_SERVER['SCRIPT_NAME']) . DIRECTORY_SEPARATOR); //defi
 
 $router = new Router($_GET['url']);
 
+//var_dump($_GET['url']);
+
 /*Les routes*/
 
 //Connexion
 
 //Route du site
-$router->get('/', 'App\Controllers\ExchangeController@index');
+$router->get('/', 'App\Controllers\TestController@index');
+$router->get('/test', 'App\Controllers\TestController@test');
+$router->get('/hello', 'App\Controllers\TestController@hello');
 
 try {
 // execution de la function run qui renvoie les vues

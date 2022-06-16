@@ -27,10 +27,6 @@ class Route
         if (preg_match($pathToMatch, $url, $matches)) {
             $this->matches = $matches;
 //            var_dump($this->matches);
-
-            var_dump("salut");
-            var_dump("salut");
-            var_dump("salut");
             return true;
         } else {
             return false;
