@@ -10,7 +10,7 @@ class Message extends Model
     public function getAllMessage(int $firstElement = 0, int $limit = 10)
     {
 
-        $query = $this->db->getPDO()->query("SELECT * FROM {$this->table} ORDER BY create_at DESC LIMIT {$firstElement},{$limit}");
+        $query = $this->db->getPDO()->query("SELECT * FROM cool ORDER BY create_at DESC LIMIT {$firstElement},{$limit}");
         $query->execute();
         return $query->fetchAll();
 
