@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use Models\Message;
+
 class TestController extends controller
 {
     public function index()
@@ -11,6 +13,10 @@ class TestController extends controller
 
     public function test()
     {
+        $message = new Message($this->getDB());
+        $allMessage = $message->getAllMessage();
+        var_dump($allMessage);
+        exit;
         return $this->view('myPage.test');
     }
 
