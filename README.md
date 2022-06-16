@@ -7,3 +7,18 @@ git clone git@github.com:oubridaouda/My-php-template.git
 cd My-php-template
 composer dump-autoload
 ````
+# Router
+````
+If the routing not work create VirtualHost and configure.
+
+<VirtualHost *:80> 
+    DocumentRoot "C:/laragon/www/My-php-template/"
+    ServerName My-php-template.test
+    ServerAlias *.My-php-template.test
+    <Directory "C:/laragon/www/My-php-template/">
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
+````
+
