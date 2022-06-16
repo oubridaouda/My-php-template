@@ -15,5 +15,7 @@
       "email": "oubridaouda@gmail.com"
     }
   ],
-  "require": {}
+  "require": {
+    "ext-pdo": "*"
+  }
 }
